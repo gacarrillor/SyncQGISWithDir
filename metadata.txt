@@ -31,7 +31,7 @@ changelog=
 
 # tags are comma separated with spaces allowed
 tags=synchronization,directory,load,sync,layers
-
+about=Lets you know when new layers are available in a directory, so that you can load them to QGIS. Think about a dropbox folder where you expect to get geospatial data; QGIS can inform you about new data ready to be loaded.
 homepage=http://geotux.tuxfamily.org/index.php/es/geo-blogs/item/308-plugin-para-sincronizar-un-directorio-con-qgis
 tracker=https://github.com/gacarrillor/SyncQGISWithDir/issues
 repository=https://github.com/gacarrillor/SyncQGISWithDir
