@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/plugins/syncqgiswithdir">
+    <file>stopsync.png</file>
+    <file>dir.png</file>
+    <file>syncdirconf.png</file>
+    <file>notification.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

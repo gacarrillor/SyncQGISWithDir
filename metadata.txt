@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Synchronize QGIS with a directory
+version=2.2
+qgisMinimumVersion=2.0
+description=Lets you know when new layers are available in a directory, so that you can load them to QGIS 
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:    
+changelog=
+    2.2 (20160908):
+    ...Moved to GitHub.
+    2.1 (20141025):
+    ...Notifications are also shown via the non-blocking QgsMessageBar.
+    2.0 (20131220):
+    ...Migration to QGIS 2.0
+    1.0 (20121008):
+    ...First version
+
+# tags are comma separated with spaces allowed
+tags=synchronization,directory,load,sync,layers
+
+homepage=http://geotux.tuxfamily.org/index.php/es/geo-blogs/item/308-plugin-para-sincronizar-un-directorio-con-qgis
+tracker=https://github.com/gacarrillor/SyncQGISWithDir/issues
+repository=https://github.com/gacarrillor/SyncQGISWithDir
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# Author contact information
+author=Germán Carrillo (GeoTux)
+email=geotux_tuxman@linuxmail.org
